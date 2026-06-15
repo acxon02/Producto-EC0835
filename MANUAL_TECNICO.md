@@ -2,8 +2,7 @@
 ## Sistema de Inventario y Ventas
 
 **Versión:** 1.0  
-**Fecha:** Junio 2026  
-**Certificación:** EC0835  
+**Fecha:** Junio 2026    
 **Distribución:** Ejecutable independiente (no requiere instalar Python)  
 **Plataforma:** Windows, Linux, macOS  
 
@@ -839,7 +838,7 @@ class VentanaPrincipal:
 
 ## INFORMACIÓN DE CONTATO Y SOPORTE
 
-**Desarrollado para:** Certificación EC0835  
+**Desarrollado por:**  Luis Manuel Morales 
 **Fecha de Desarrollo:** Junio 2026  
 **Versión Actual:** 1.0  
 

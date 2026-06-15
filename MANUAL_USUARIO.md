@@ -15,7 +15,7 @@
 ║                                                                ║
 ║                   Junio de 2026                               ║
 ║                                                                ║
-║   Desarrollo: Certificación EC0835                           ║
+║                              ║
 ║   Plataforma: Windows, Linux, macOS                          ║
 ║   Distribución: Ejecutable independiente (no requiere instalar Python)                                 ║
 ║                                                                ║
@@ -31,8 +31,7 @@
 **SISTEMA DE INVENTARIO Y VENTAS**
 
 **Versión:** 1.0  
-**Fecha:** Junio 2026  
-**Certificación:** EC0835  
+**Fecha:** Junio 2026   
 
 **Propósito del Manual:** Guiar al usuario en la instalación, configuración y uso de la aplicación Sistema de Inventario y Ventas de forma simple e intuitiva.
 
@@ -680,7 +679,7 @@ Con esta aplicación, tendrás un control perfecto de tu negocio.
 
 **Manual de Usuario - Sistema de Inventario y Ventas**  
 *Versión 1.0 - Junio 2026*  
-*Certificación EC0835*
+
 
 ---
 
