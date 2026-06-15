@@ -4,7 +4,7 @@
 **Versión:** 1.0  
 **Fecha:** Junio 2026  
 **Certificación:** EC0835  
-**Lenguaje:** Python 3.7+  
+**Distribución:** Ejecutable independiente (no requiere instalar Python)  
 **Plataforma:** Windows, Linux, macOS  
 
 ---
@@ -24,7 +24,7 @@
 
 ## INTRODUCCIÓN
 
-El **Sistema de Inventario y Ventas** es una aplicación de escritorio desarrollada en Python que permite a las empresas gestionar de forma eficiente:
+El **Sistema de Inventario y Ventas** es una aplicación de escritorio que permite a las empresas gestionar de forma eficiente:
 
 - **Categorización de productos:** Organizar productos por categorías
 - **Control de inventario:** Registrar y actualizar stock de productos
@@ -38,8 +38,7 @@ La aplicación utiliza una arquitectura **Modelo-Vista-Controlador (MVC)** que g
 - Escalabilidad futura
 
 **Tecnologías utilizadas:**
-- **Python 3.7+:** Lenguaje de programación
-- **Tkinter:** Interfaz gráfica (incluido en Python)
+- **Distribución:** Ejecutable independiente para el usuario final
 - **SQLite:** Base de datos relacional
 - **POO:** Programación Orientada a Objetos
 
@@ -99,55 +98,16 @@ Desarrollar una aplicación de gestión de inventario y ventas que permita a las
 
 ### REQUERIMIENTOS DE SOFTWARE
 - **Sistema Operativo:** Windows 7+, Linux (Ubuntu 18.04+), macOS 10.12+
-- **Python:** Versión 3.7 o superior
-- **Tkinter:** Incluido en la instalación estándar de Python
+- **Distribución:** Ejecutable independiente para cada plataforma. Los usuarios finales NO necesitan instalar Python.
 
-### INSTALACIÓN PASO A PASO
+### INSTALACIÓN Y EJECUCIÓN (USUARIO FINAL)
 
-#### 1. **Descargar e Instalar Python**
-```bash
-# Descargar desde https://www.python.org/downloads/
-# Seleccionar versión 3.7 o superior
-# IMPORTANTE: Marcar opción "Add Python to PATH"
-```
+La versión certificada del sistema se entrega como un ejecutable independiente. No es necesario instalar Python ni ejecutar scripts.
 
-#### 2. **Verificar Instalación**
-```bash
-python --version
-# Debe mostrar: Python 3.x.x
+- Windows: descargar `SistemaInventario.exe` y ejecutar con doble clic.
+- Linux/macOS: utilizar el paquete/binario nativo proporcionado y seguir las instrucciones del proveedor.
 
-pip --version
-# Debe mostrar versión de pip
-```
-
-#### 3. **Descargar el Sistema**
-```bash
-# Descargar archivo: gestion_inventario.zip
-# Extraer en carpeta deseada
-```
-
-#### 4. **Verificar Tkinter (Linux)**
-```bash
-# En Linux, Tkinter no siempre viene incluido
-sudo apt-get install python3-tk
-```
-
-#### 5. **Ejecutar la Aplicación**
-```bash
-cd gestion_inventario
-python main.py
-```
-
-#### 6. **Generar Ejecutable (.exe)**
-```bash
-# Instalar PyInstaller
-pip install pyinstaller
-
-# Generar ejecutable
-pyinstaller --onefile --windowed --name SistemaInventario main.py
-
-# El archivo ejecutable estará en: dist/SistemaInventario.exe
-```
+Nota para desarrolladores: el código fuente puede estar implementado en Python, pero el entregable certificado debe ser un ejecutable listo para el uso final; no se requiere que los usuarios generen el .exe.
 
 ---
 
@@ -884,10 +844,10 @@ class VentanaPrincipal:
 **Versión Actual:** 1.0  
 
 ### Para reportar problemas:
-1. Verificar que Python 3.7+ está instalado
-2. Verificar que Tkinter está disponible
-3. Revisar archivo GUIA_RAPIDA.md para soluciones comunes
-4. Contactar al equipo de desarrollo
+### Para reportar problemas:
+1. Verificar que el ejecutable `SistemaInventario.exe` (o el binario entregado) se haya ejecutado correctamente
+2. Revisar archivo GUIA_RAPIDA.md para soluciones comunes
+3. Incluir evidencia (capturas, logs) y contactar al equipo de desarrollo
 
 ---
 

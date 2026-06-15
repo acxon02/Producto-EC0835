@@ -17,7 +17,7 @@
 ║                                                                ║
 ║   Desarrollo: Certificación EC0835                           ║
 ║   Plataforma: Windows, Linux, macOS                          ║
-║   Lenguaje: Python + Tkinter                                 ║
+║   Distribución: Ejecutable independiente (no requiere instalar Python)                                 ║
 ║                                                                ║
 ║        "Gestiona tu inventario de forma fácil"              ║
 ║                                                                ║
@@ -93,41 +93,8 @@ Organiza tus productos en grupos. Por ejemplo:
 - Bebidas
 
 ### 2️⃣ CREAR PRODUCTOS
-Registra cada producto con:
-- Nombre
-- Precio
-- Cantidad en stock
-- Categoría a la que pertenece
-
-### 3️⃣ REGISTRAR VENTAS
-Cuando vendes algo:
-- Selecciona el producto
-- Ingresa la cantidad
-- La aplicación **calcula automáticamente** el total
-- El stock se **actualiza solo**
-
-### 4️⃣ VER REPORTES
-Obtén información sobre:
-- ¿Cuánto vendí en total?
-- ¿Cuál fue mi producto más vendido?
-- ¿Cuántos productos tengo por categoría?
-
----
-
-## 🔧 REQUISITOS DE INSTALACIÓN
-
-Antes de instalar, verifica que tu computadora tenga:
-
-### PARA WINDOWS, LINUX O MAC
-
-**Lo que necesitas:**
-- Una computadora con **8 años o menos**
-- Mínimo **512 MB de memoria RAM**
-- Mínimo **50 MB de espacio disponible** en el disco
-- Pantalla de **1024x768 píxeles** o superior
-
 **Software necesario:**
-- **Python 3.7 o superior** (¡es gratis!)
+- Ninguno adicional: la aplicación se entrega como ejecutable independiente. No es necesario instalar Python ni editar código.
 
 **¿Cómo sé qué versión de Windows/Linux/Mac tengo?**
 
@@ -149,105 +116,20 @@ Abre Terminal y escribe: lsb_release -d
 
 ## 🚀 INSTALACIÓN Y CONFIGURACIÓN
 
-### PASO 1: DESCARGAR PYTHON
+### INSTALACIÓN Y EJECUCIÓN (USUARIO FINAL)
 
-Python es el "motor" de la aplicación.
+La aplicación se entrega como un ejecutable independiente para cada plataforma. No es necesario instalar Python ni modificar código.
 
-**Instrucciones:**
+**Pasos simples para usarla (Windows):**
+1. Descarga el archivo `SistemaInventario.exe` desde la fuente entregada por el proveedor.
+2. Guarda el archivo en una carpeta de tu elección (por ejemplo, `C:\MiInventario`).
+3. Haz doble clic en `SistemaInventario.exe` para ejecutar la aplicación.
 
-1. Abre tu navegador (Chrome, Firefox, Edge, Safari)
-2. Ve a: **https://www.python.org/downloads/**
-3. Verás un botón amarillo grande con **"Download Python"**
-4. Haz clic
-5. **Descarga la versión más reciente** (debe ser 3.7 o superior)
+**En Linux/macOS:**
+Se entrega un paquete o binario nativo. Sigue las instrucciones específicas del proveedor para ejecutar el archivo correspondiente.
 
-**Nota:** El archivo descargado se llama algo como `python-3.x.x.exe` (en Windows)
-
-### PASO 2: INSTALAR PYTHON
-
-#### En Windows:
-
-1. **Abre el archivo descargado** (haz doble clic)
-2. Verás una ventana con opciones
-3. ⚠️ **IMPORTANTE:** Marca la casilla que dice **"Add Python to PATH"**
-4. Haz clic en **"Install Now"**
-5. Espera a que se complete la instalación (toma unos minutos)
-6. Cuando termine, haz clic en **"Close"**
-
-#### En Linux:
-
-```bash
-sudo apt-get update
-sudo apt-get install python3 python3-pip python3-tk
-```
-
-#### En Mac:
-
-1. Descarga el instalador desde https://www.python.org/downloads/
-2. Haz doble clic en el archivo `.pkg`
-3. Sigue las instrucciones del instalador
-4. Completa la instalación
-
-### PASO 3: VERIFICAR LA INSTALACIÓN
-
-Abre una terminal o símbolo del sistema y escribe:
-
-```
-python --version
-```
-
-Deberías ver algo como: `Python 3.x.x`
-
-Si ves esto, ¡Python está correctamente instalado! ✅
-
-### PASO 4: OBTENER LA APLICACIÓN
-
-**Opción A - Si tienes el archivo .zip:**
-1. Descarga el archivo `gestion_inventario.zip`
-2. Haz clic derecho > **"Extraer aquí"**
-3. Crea una carpeta en tu escritorio llamada **"MiInventario"**
-4. Mueve los archivos extraídos allí
-
-**Opción B - Si tienes una carpeta:**
-1. Simplemente copia la carpeta `gestion_inventario` a tu escritorio
-
-### PASO 5: EJECUTAR LA APLICACIÓN
-
-#### En Windows:
-
-1. Abre la carpeta `gestion_inventario`
-2. Haz clic en **"main.py"** (o busca un archivo con ese nombre)
-3. Si aparece un menú, selecciona **"Ejecutar con Python"**
-4. ¡La aplicación debe abrirse! 🎉
-
-**Alternativa:** Si lo anterior no funciona:
-1. Abre **"Símbolo del sistema"** (o **"Command Prompt"**)
-2. Escribe:
-```
-cd Desktop\MiInventario
-python main.py
-```
-
-#### En Linux o Mac:
-
-1. Abre **Terminal**
-2. Ve a la carpeta:
-```
-cd ~/Desktop/gestion_inventario
-```
-3. Ejecuta:
-```
-python3 main.py
-```
-
-### ¿FUNCIONA BIEN?
-
-Cuando ejecutes la aplicación deberías ver:
-- Una ventana con el título **"Sistema de Inventario y Ventas"**
-- Botones coloridos
-- Un menú en la parte superior
-
-Si ves esto, ¡la instalación fue exitosa! ✨
+Si tienes problemas, contacta con el soporte técnico indicado en la sección de contacto.
+ 
 
 ---
 
@@ -629,7 +511,7 @@ No puedes eliminar un producto si ya tiene ventas registradas. Es para proteger 
 - El costo en dinero de un producto.
 
 **Python**
-- El lenguaje de programación usado para crear esta aplicación.
+- El código fuente está implementado en Python, pero la aplicación se distribuye como ejecutable independiente. Los usuarios no necesitan instalar Python ni editar código.
 
 **Reporte**
 - Un resumen o análisis de tus datos. Ejemplo: total de ventas.
@@ -774,7 +656,7 @@ No puedes eliminar un producto si ya tiene ventas registradas. Es para proteger 
 - Versión: 1.0
 - Desarrollado para: Certificación EC0835
 - Plataforma: Windows, Linux, macOS
-- Lenguaje: Python + Tkinter
+- Distribución: Ejecutable independiente (no requiere instalar Python)
 
 ---
 
